@@ -1,0 +1,72 @@
+.cal {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #5b5757;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  
+}
+  
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #716c6c;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+.cal input[type="submit"] {
+    width: 90x;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #716c6c;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .cal input[type="number"] {
+    width: 90x;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #716c6c;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  #result{
+    width:200px;    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+    background: rgb(255, 255, 255);
+  }
+  #n1,#result,#resulttotal{
+    text-align: center;
+  }
+  #add:hover{
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  #ans,#ref{
+    width: 100px;
+    margin: auto;
+    
+  }
+  #resulttotal{
+    width:200px;    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+    background: rgb(255, 255, 255);
+  }
